@@ -1,0 +1,42 @@
+.screen {
+    width: 365px;
+    height: 812px;
+    border: 1px solid black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E8F5CE;
+}
+
+h2 {
+    color: white;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-bottom: 0;
+    height: 50px;
+    background-color: #0F765A;
+    padding: auto;
+    border: none;
+    text-align: center;
+    
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    position: relative;
+}
+
+.switch {
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left:20px;
+    width: 100%;
+    bottom: 60px;
+    height: 60px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.switch {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 0;
+    height: 60px;
+    background-color: #303C6C;
+    padding: auto;
+    border: none;
+    text-align: center;
+}
+
+#day,#week,#month {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  width:85%;
+}
+
+#btn-day,#btn-week,#btn-month {
+    padding:10px;
+    background:#FBE8A6;
+    width:70px;
+    color:black;
+    font-size: 18px;
+    /* box-shadow:5px 5px 10px #aaaaaa; */
+    border:none;
+    border-radius: 3px;
+    display:inline;
+}
+
+button:active {
+    background-color: #303C6C;
+    color: white;
+}
+
+.graph {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*.screen img{
+    position:absolute;
+    top:22px;
+    right:5px;
+}*/
+
+#back {
+    height: 35px;
+    width: 35px;
+    top:10px;
+    left:0px;
+    position:absolute;
+    top:22px;
+    right:5px;
+    
+}

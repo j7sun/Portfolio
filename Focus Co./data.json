@@ -1,0 +1,121 @@
+{
+	"j7sun": {
+		"username": "Mark",
+		"password": "sjl120",
+		"credits": 100,
+		"friend": [
+			{
+				"name": "Mark",
+				"status": {
+					"level": "intern",
+					"credits": 50,
+					"task": "A2"
+				}
+			},
+			{
+				"name": "Jack",
+				"status": {
+					"level": "general staff",
+					"credits": 500,
+					"task": "A3"
+				}
+			},
+			{
+				"name": "Candace",
+				"status": {
+					"level": "manager",
+					"credits": 5000,
+					"task": "A4"
+				}
+			}
+		],
+		"tasks": [
+			{
+				"hour": 1,
+				"min": 30,
+				"ticket-val": 10,
+				"ticket-num": 2
+			}
+		]
+	},
+	"jic006": {
+		"username": "Jack",
+		"password": "cjd110",
+		"credits": 100,
+		"level": "Intern",
+		"friend": [
+			{
+				"name": "Mark",
+				"status": {
+					"level": "intern",
+					"credits": 50,
+					"task": "A2"
+				}
+			},
+			{
+				"name": "Jack",
+				"status": {
+					"level": "general staff",
+					"credits": 500,
+					"task": "A3"
+				}
+			},
+			{
+				"name": "Candace",
+				"status": {
+					"level": "manager",
+					"credits": 5000,
+					"task": "A4"
+				}
+			}
+		],
+		"tasks": [
+			{
+				"hour": 1,
+				"min": 30,
+				"ticket-val": 10,
+				"ticket-num": 2
+			}
+		]
+	
+	},
+	"y9feng": {
+		"username": "Candace",
+		"password": "fym911",
+		"credits": 100,
+		"friend": [
+			{
+				"name": "Mark",
+				"status": {
+					"level": "intern",
+					"credits": 50,
+					"task": "A2"
+				}
+			},
+			{
+				"name": "Jack",
+				"status": {
+					"level": "general staff",
+					"credits": 500,
+					"task": "A3"
+				}
+			},
+			{
+				"name": "Candace",
+				"status": {
+					"level": "manager",
+					"credits": 5000,
+					"task": "A4"
+				}
+			}
+		],
+		"tasks": [
+			{
+				"hour": 1,
+				"min": 30,
+				"ticket-val": 10,
+				"ticket-num": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/focus.js"></script>
+</head>
+
+<body>
+    <div class="screen">
+        <div id="sidebar">
+            <img id="cross" src="/icon/cross.png"  alt="" onclick="closeNav()">
+            <img id="user-pic" src="/icon/user.png" alt="">
+            <a href="/history"><button class = "btn-nav" id = "btn-his">History</button></a>
+            <a href="/achievements"><button class ="btn-nav" id = "btn-ach">Achievements</button></a>
+            <a href="/notiSetting"><button class ="btn-nav"id = "btn-not">Notification Settings</button></a>
+            <a href="/login" id="log">Logout</a>
+        </div>
+        <div id = "top">
+            <img id="burger" src="/icon/burger.png" alt="" onclick="openNav()">
+            <span class="money">{{jic006.credits}}</span>
+            <img id="moneyIcon" src="/icon/money.png" alt="">
+        </div>
+    
+        <div class="center">
+            <h1>Hi {{jic006.username}}!</h1>
+            <div class="thumb"><img id="figure" src="/icon/figure.png" alt=""></div>
+            <h4 id="level">Level: {{jic006.level}}</h4>
+            <a href="/tasksetting"><button id="btn-start">Start</button></a>
+        </div>
+
+        <a href="/individual"><button id="btn-todo" >To do</button></a>
+        <a href="/friends"><button id="btn-friends" >Friends</button></a>
+
+    </div>
+
+</body>
+
+</html>

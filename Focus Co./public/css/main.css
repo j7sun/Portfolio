@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    position: relative;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top:30px;
+}
+
+
+.center {
+    margin: auto;
+    width: 80%;
+    height: 75%;
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-top:40px;
+}
+
+.money {
+    height: 40px;
+    width:200px;
+    margin: 8px 0 0 210px; 
+    font-size: 28px;
+    background-color: #FBE8A6;
+    border-radius: 60px;
+    padding: 9px;
+}
+
+#moneyIcon{
+    position: absolute;
+    width:4vw;
+    right:20%;
+    top:3%;
+}
+
+#cross {
+    height: 35px; 
+    width: 35px; 
+    margin-right: 0;
+}
+
+#figure {
+    width: 400px;
+    transform: translate(-30px, 60px);
+    margin-bottom: 30px;
+}
+
+#level {
+    margin-top: 60px;
+    transform: translateY(80%);
+}
+
+#rank {
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translate(10px, 130px);
+}
+
+#btn-start {
+    height: 140px;
+    width: 140px;
+    font-size: 30px;
+    left: auto;
+    right: auto;
+    bottom: 0px;
+    border-radius: 50%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 1;
+    box-shadow: 0 4px 4px #888888;
+}
+
+#btn-start:hover {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #FBE8A6;
+    color: #FBE8A6;
+    cursor: pointer;
+}
+
+#burger {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#burger:hover {
+    cursor: pointer;
+}
+
+#sidebar {
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: absolute; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #D2FDFF; /* Black fallback color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+#user-pic {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 80%;
+    height: 150px;
+    background-color: #fff;
+}
+
+.btn-nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 90%;
+    height: 40px;
+    background-color: #FBE8A6;
+    border:none;
+    box-shadow:2px 2px 5px #aaaaaa;
+}
+
+#btn-todo {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FBE8A6;
+    position: absolute;
+    right: 30px;
+    bottom: 60px;
+    font-size: 25px;
+    box-shadow: 0 2px 2px #888888;
+}
+
+#btn-todo:hover {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #F4976C;
+    color: #F4976C;
+    cursor: pointer;
+}
+
+#btn-friends {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: #D2FDFF;
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    font-size: 25px;
+    box-shadow: 0 2px 2px #888888;
+}
+
+#btn-friends:hover {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #303C6C;
+    color: #303C6C;
+    cursor: pointer;
+}    
+
+#level {
+font-size: 35px;
+margin-top: 0px;
+}
+
+.thumb {
+    overflow: hidden;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .screen {
+        width: 100%;
+        height: 100%;
+        border: none;
+        overflow: hidden;
+    }
+
+    
+    
+   #top{
+        width:100%;
+        height:8%;
+    }
+    
+    #btn-friends {
+        width: 300px;
+        height: 300px;
+        left: 50px;
+        bottom: 100px;
+        font-size: 60px;
+    }
+
+    #btn-friends:hover {
+        width: 300px;
+        height: 300px;
+        border: 4px solid #303C6C;
+        color: #303C6C;
+        cursor: pointer;
+    }    
+
+    #btn-start {
+        top:75%;
+        width: 420px;
+        height: 420px;
+        font-size: 70px;
+    }
+
+    #btn-start:hover {
+        width: 400px;
+        height: 400px;
+        border: 4px solid #FBE8A6;
+        color: #FBE8A6;
+        cursor: pointer;
+    }
+
+    #btn-todo {
+        width: 300px;
+        height: 300px;
+        border: none;
+        border-radius: 50%;
+        background-color: #FBE8A6;
+        position: absolute;
+        right: 50px;
+        bottom: 100px;
+        font-size: 60px;
+        box-shadow: 0 2px 2px #888888;
+    }
+    
+    #btn-todo:hover {
+        width: 300px;
+        height: 300px;
+        border: 4px solid #F4976C;
+        color: #F4976C;
+        cursor: pointer;
+    }
+    
+    #level {
+    font-size: 35px;
+    margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-top:10%;
+        text-align: center;
+        font-size: 5rem;
+        margin-left:17%;
+    }
+
+    h4 { 
+        margin-left:10%;
+    }
+
+    #burger {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    #figure {
+        margin-top: 50px;
+        width: 130%;
+        transform: translate(-50px, 40px);
+        margin-left: 20px;
+        overflow: hidden;
+    }
+
+
+    #moneyIcon{
+        position: absolute;
+        width:15%;
+        right:150px;
+        top:60px;
+    }
+    
+    #level {
+        font-size: 100px;
+        margin-bottom: 20px;
+        margin-top:100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #rank {
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        transform: translate(10px, 130px);
+    }
+    
+    
+    #log{
+    
+        width:20%;
+    
+    } 
+
+    .money {
+        text-align: right;
+        position: absolute;
+        height: 80px;
+        top: 3.5%;
+        right: 50px;
+        font-size: 80px;
+        background-color: #FBE8A6;
+        border-radius: 60px;
+
+    }
+
+    .btn-nav {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:8%;
+        margin-bottom: 10px;
+        display: block;
+        width: 90%;
+        height: 6rem;
+        font-size: 2rem;
+        background-color: #FBE8A6;
+        border:none;
+        box-shadow:2px 2px 5px #aaaaaa;
+    }
+
+    #log {
+        font-size: 3rem;
+        margin-left:35%;
+        margin-top:5%;
+    }
+
+    #sidebar {
+        text-align: center;
+        height:100%;
+        width:0%;
+    }
+
+    #cross {
+        margin-top:50px;
+        margin-left:50px;
+    }
+
+    #user-pic {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        width: 80%;
+        height: 350px;
+        background-color: #fff;
+    }
+
+    #cross {
+        width: 100px;
+        height: 100px;
+    }
+
+    .thumb {
+        overflow: hidden;
+        width: 90%;
+    }
+
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
